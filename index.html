@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic-Tac-Toe</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Tic-Tac-Toe</h1>
+  <div id="board" class="board">
+    <!-- Create the game board cells using div elements -->
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <button id="restartBtn">Restart Game</button> <!-- Add the Restart Game button here -->
+</div>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="resultMessage"></span>
+    <button id="newGameBtn">New Game</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
